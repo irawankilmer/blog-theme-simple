@@ -120,6 +120,7 @@ body {
 .content-body {
   width: 75%;
   padding: 5px;
+  margin-right: 10px;
 }
 
 .content-body p {
@@ -144,11 +145,40 @@ body {
   color: orange;
 }
 
-.sidebar .header {
+.content .content-body img {
+  width: 350px;
+  float: inline-start;
+}
+
+.sidebar .header-sidebar {
   background-color: orange;
   margin-left: 5px;
   border-top: 3px solid lightskyblue;
+}
+
+.sidebar .header-sidebar h2 {
+  color: red;
+  text-align: center;
+  padding: 10px;
   color: white;
+}
+
+.body-sidebar {
+  padding: 10px;
+  border-bottom: 3px solid lightskyblue;
+}
+
+.body-sidebar ul li {
+  padding: 2px;
+}
+
+.body-sidebar a {
+  text-decoration: none;
+  color: orange;
+}
+
+.body-sidebar a:hover {
+  color: lightskyblue;
 }
 
 footer {
